@@ -1,0 +1,22 @@
+footer{
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid rgb(149, 149, 149);
+  align-items: center;
+  padding: 40px 50px;
+}
+
+#made-by h4{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: -0.5px;
+  color: #959595;
+}
+
+#social-media-icon i{
+  color: #959595;
+  font-size: 26px;
+  padding: 0 10px;
+}

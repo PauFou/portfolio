@@ -1,0 +1,15 @@
+#banner h3{
+  margin-bottom:65px;
+}
+
+#banner{
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+
+.project-banner{
+  width: 100vw;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}

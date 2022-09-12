@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  background: rgba(50, 50, 50, 0.7);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  backdrop-filter: blur(20px);
+}
+
+.navbar .items {
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 100px;
+}
+
+.navbar .item {
+  margin-left: 3em;
+  float: right;
+}
+
+.navbar .logo {
+  font-weight: 900;
+  font-size: 22px;
+  margin-left: 100px;
+}
