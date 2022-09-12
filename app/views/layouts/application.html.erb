@@ -3,10 +3,12 @@
   <head>
     <title>Paul Fournier | Portfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
     <title>Paul Fournier</title>
     <link href="../style/application.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
