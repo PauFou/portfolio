@@ -4,11 +4,10 @@
         <img src="https://res.cloudinary.com/dm52xbw1e/image/upload/v1662968669/tete_paul_du3tow.jpg" alt="Paul Fournier" class="avatar">
       </div>
       <div class="infos">
-        <h1>Hi, I am Paul <br>
-          A Fullstack Developer <br>
-          based in Paris.</h1>
-        <h3>I help businesses and companies reach
-          their goals.</h3>
+        <h1>Hey👋, Je suis Paul <br>
+          Un Dévelopeur Fullstack <br>
+          basé à Paris.</h1>
+        <h3>J'aide les entreprises à atteindre leurs objectifs.</h3>
           <a href="#">
             <button class="my-email">
               <i class="fa-regular fa-envelope envelope"></i>pfournier597@gmail.com
@@ -18,24 +17,32 @@
   </div>
 
   <div id="gallery">
-    <p><i class="fa-solid fa-arrow-down arrow-down"></i> SELECTED WORKS</p>
+    <p><i class="fa-solid fa-arrow-down arrow-down"></i> PROJETS SELECTIONNES</p>
     <div class='project-cards'>
       <%= link_to deflavour_path do %>
-        <div class="project-card" id="deflavour" style="background-image: url(https://res.cloudinary.com/dm52xbw1e/image/upload/v1663148797/Capture_d_e%CC%81cran_2022-09-14_a%CC%80_11.45.52_dpns6j.png);">
+        <div class="project-card" id="deflavour">
+
+          <div class="stack">
+            <button>Ruby on Rails</button><button>JavaScript</button><button>HTML</button><button>CSS</button><button>Bootstrap</button><button>postgreSQL</button>
+          </div>
           <span>DeFlavour</span>
         </div>
+
       <% end %>
-      <%= link_to deflavour_path , :style => "margin-top: 100px;" do %>
-        <div class="project-card" id="caravana" style="background-image: url(https://res.cloudinary.com/dm52xbw1e/image/upload/v1662968667/caravana_wpxs13.png);">
+      <%= link_to caravana_path do %>
+        <div class="project-card" id="caravana">
+          <div class="stack">
+            <button>Ruby on Rails</button><button>JavaScript</button><button>HTML</button><button>CSS</button><button>Bootstrap</button><button>postgreSQL</button>
+          </div>
           <span>Caravana</span>
         </div>
       <% end %>
     </div>
   </div>
   <div id="contact-me">
-    <h2>Contact me</h2>
-    <h3>If you are looking to hire a web developer,<br>
-    I’m currently available for freelance work</h3>
+    <h2>Contactez-moi</h2>
+    <h3>Si vous cherchez à embaucher un developeur web,<br>
+    Je suis actuellement disponible pour un poste en freelance.</h3>
     <button class="my-email">
       <i class="fa-regular fa-envelope envelope"></i>pfournier597@gmail.com
     </button>

@@ -56,3 +56,24 @@
   margin-right: 10px;
   color: black;
 }
+
+.stack button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  padding: 4px 8px;
+  margin: 3px;
+  border:1px solid rgba(222, 222, 222);
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.stack button:hover{
+  background-color: rgba(222, 222, 222);
+  color: #202020;
+}

@@ -1,10 +1,14 @@
 <header>
   <div class="navbar">
-    <div class="logo">PauFou</div>
+    <div class="logo">
+      <%= link_to root_path do %>
+        PauFou
+      <% end %>
+    </div>
     <div class="items">
-      <a href="#contact-me" class="contact item">Contact</a>
-      <a href="#gallery" class="work item">Work</a>
-      <a href="/" class="home item">Home</a>
+      <%= link_to "Contact", root_path(:anchor => "contact-me"), class: "contact item"  %>
+      <%= link_to "Work", root_path(:anchor => "gallery"), class: "work item" %>
+      <%= link_to "Home", root_path, class: "home item" %>
     </div>
   </div>
 </header>
