@@ -2,21 +2,29 @@
 </div>
 
 <div class="container">
+  <div class="link-to">
+    <a href="#" class="link-project" style="margin-right:10px"><i class="fa-brands fa-github icon"></i>Voir le code</a>
+    <a href="#" class="link-project" style="margin-left:10px"><i class="fa-brands fa-chrome icon"></i>Voir le projet</a>
+  </div>
   <div class="product-infos">
     <div class="product-base">
-      <h4>Objectif</h4>
-      <p>Porposer le spiritueux qui vous convient</p>
-    </div>
-    <div class="product-pain">
-      <h4>Présentation du projet</h4>
+      <h4>A propos</h4>
       <p>Créer un algorithme qui, en fonction des bouteilles que vous appréciez, sera capable de vous porposer un pannel de 5 spiritueux faits pour vous.</p>
     </div>
+
     <div class="project">
-      <h4>Le projet</h4>
-      <video width="320" height="240" controls>
-        <source src="movie.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <h4>Tech stack</h4>
+      <div class="stack">
+        <a href="#">Ruby on Rails</a><a href="#">JavaScript</a><a href="#">HTML</a><a href="#">CSS</a><a href="#">Bootstrap</a><a href="#">postgreSQL</a>
+      </div>
+    </div>
+      <div class="project-image">
+        <h4></h4>
+        <div class="image-product" style="background-image: url(https://res.cloudinary.com/dm52xbw1e/image/upload/v1663148797/Capture_d_e%CC%81cran_2022-09-14_a%CC%80_11.45.52_dpns6j.png);">
+      </div>
+    </div>
+    <div class="next-work">
+      <%= link_to "Projet Suivant", caravana_path, class: "next-work-txt" %>
     </div>
   </div>
 </div>
